@@ -1,4 +1,4 @@
-# 🥭 MangoWM — Yuri Edition
+# 💜 MangoWM — Yuri
 
 A ruthless, high-performance Wayland "rice" based on [MangoWM](https://github.com/mangowm/mango). Designed for minimalists who crave speed, aesthetics, and that perfect SceneFX blur.
 
@@ -17,12 +17,11 @@ A ruthless, high-performance Wayland "rice" based on [MangoWM](https://github.co
 To get the full experience, you'll need the following (mostly available via AUR for Arch users):
 
 - **Window Manager:** `mangowm-git`
-- **Compositor Engine:** `scenefx`
 - **Terminal:** `foot` (lightweight and fast)
 - **Status Bar:** `waybar`
-- **Application Launcher:** `rofi-wayland`
+- **Application Launcher:** `rofi`
 - **Wallpaper Utility:** `swaybg`
-- **System Info:** `fastfetch` or `neofetch`
+- **System Info:** `fastfetch`
 
 ---
 
