@@ -2,7 +2,7 @@
 
 A ruthless, high-performance Wayland "rice" based on [MangoWM](https://github.com/mangowm/mango). Designed for minimalists who crave speed, aesthetics, and that perfect SceneFX blur.
 
-![Preview Placeholder](https://via.placeholder.com/800x450?text=Insert+Your+Epic+Screenshot+Here)
+![Preview Placeholder](https://github.com/nExysYT/mangowm-yuri/blob/main/preview.png?raw=true)
 
 ## ⚡ Highlights
 - **Wayland Native**: Zero tear, maximum smoothness.
