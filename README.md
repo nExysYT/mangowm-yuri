@@ -22,6 +22,7 @@ To get the full experience, you'll need the following (mostly available via AUR 
 - **Application Launcher:** `rofi`
 - **Wallpaper Utility:** `swaybg`
 - **System Info:** `fastfetch`
+- **Font :** `JetBrainsMono Nerd Font`
 
 ---
 
@@ -31,7 +32,7 @@ To get the full experience, you'll need the following (mostly available via AUR 
 If you are on Arch Linux, use your favorite AUR helper (like `yay` or `paru`):
 ```bash
 yay -S mangowm-git
-sudo pacman -S waybar foot rofi swaybg
+sudo pacman -S waybar foot rofi swaybg ttf-jetbrains-mono-nerd
 ```
 
 ### 2. Clone the Repository

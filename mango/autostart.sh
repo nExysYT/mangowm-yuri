@@ -1,4 +1,4 @@
-swaybg -i /home/exys/Pictures/Wallpaper/yuri/sweet.png -m fill &
+swaybg -i ~/Pictures/wallpaper/yuri/sweet.png -m fill &
 waybar &
 
 dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=wlroots
