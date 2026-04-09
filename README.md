@@ -22,7 +22,9 @@ To get the full experience, you'll need the following (mostly available via AUR 
 - **Application Launcher:** `rofi`
 - **Wallpaper Utility:** `swaybg`
 - **System Info:** `fastfetch`
-- **Font :** `JetBrainsMono Nerd Font`
+- **Font :** `ttf-jetbrains-mono-nerd`
+- **File Manager:** `dolphin`
+- **XDG Desktop Portal:** `xdg-desktop-portal-wlr`
 
 ---
 
@@ -32,7 +34,7 @@ To get the full experience, you'll need the following (mostly available via AUR 
 If you are on Arch Linux, use your favorite AUR helper (like `yay` or `paru`):
 ```bash
 yay -S mangowm-git
-sudo pacman -S waybar foot rofi swaybg ttf-jetbrains-mono-nerd
+sudo pacman -S waybar foot rofi swaybg ttf-jetbrains-mono-nerd noto-fonts-cjk dolphin xdg-desktop-portal-wlr
 ```
 
 ### 2. Clone the Repository
@@ -49,11 +51,17 @@ mkdir -p ~/.config/mango
 mkdir -p ~/Pictures
 ```
 
-### 4. Copy other component configs
+### 4. Copy the configs
 ```bash
  cp -r mango ~/.config/
  cp -r waybar ~/.config/
  cp -r foot ~/.config/
  cp -r rofi ~/.config/
  cp -r wallpaper ~/Pictures
+```
+
+### 5. Give permissions to scripts
+```bash
+chmod +x ~/.config/mango/autostart.sh
+(Optional) chmod +x ~/.config/mango/term.sh
 ```
