@@ -1,0 +1,80 @@
+* {
+    /* Using your config color: #291d5d */
+    bg-col:           #0d0a1ad9;  
+    selected-col:     #291d5d80;  
+    fg-col:           #ddd0f0ff;
+    fg-col2:          #a89bc2ff;
+
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+window {
+    height: 450px;
+    width: 650px;
+    border: 0px;
+    border-radius: 12px;
+    background-color: @bg-col;
+}
+
+mainbox {
+    background-color: transparent;
+    /* This ensures children like mode-switcher don't show up */
+    children: [inputbar, listview]; 
+}
+
+inputbar {
+    /* Removed 'prompt' from children to hide the "Apps" box */
+    children: [entry];
+    background-color: transparent;
+    padding: 20px;
+}
+
+entry {
+    padding: 10px;
+    text-color: @fg-col;
+    background-color: transparent;
+    placeholder: "Search...";
+    placeholder-color: @fg-col2;
+}
+
+listview {
+    border: 0px;
+    padding: 10px;
+    background-color: transparent;
+    columns: 1;
+    lines: 10; /* Increased lines since the bottom bar is gone */
+}
+
+element {
+    padding: 8px;
+    background-color: transparent;
+    text-color: @fg-col2;
+    border-radius: 8px;
+}
+
+element-icon {
+    size: 24px;
+    background-color: transparent;
+    padding: 0 10px 0 0;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+element selected {
+    background-color: @selected-col;
+    text-color: #ffffffff;
+}
+
+element selected text {
+    background-color: transparent;
+    text-color: #ffffffff;
+}
+
+/* Hidden Sections */
+mode-switcher {
+    enabled: false;
+}

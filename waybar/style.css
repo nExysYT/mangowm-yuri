@@ -1,0 +1,81 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 13px;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+  color: #ddd0f0;
+}
+
+window#waybar > box {
+  margin: 2px 4px;
+  background: rgba(13, 10, 26, 0.85);
+  border-radius: 12px;
+  padding: 0 6px;
+}
+
+/* ---- tags ---- */
+#tags {
+  margin: 2px 2px;
+  padding: 0 4px;
+}
+
+#tags button {
+  padding: 0 8px;
+  color: #4a3a6a;
+  background: transparent;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  min-width: 24px;
+}
+
+#tags button.occupied {
+  color: #a89bc2;
+}
+
+#tags button.focused {
+  color: #ddd0f0; 
+  /* Using your specific purple with 60% opacity for the highlight */
+  background: rgba(41, 29, 93, 0.6); 
+}
+
+#tags button.urgent {
+  color: #ffffff;
+  background: rgba(41, 29, 93, 0.9);
+}
+
+#tags button:hover {
+  color: #ddd0f0;
+  background: rgba(41, 29, 93, 0.3);
+}
+
+/* ---- clock ---- */
+#clock {
+  color: #a89bc2;
+  font-weight: bold;
+  background: transparent;
+  margin: 2px 2px;
+  padding: 0 12px;
+}
+
+/* ---- right modules ---- */
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#tray {
+  background: transparent;
+  margin: 2px 2px;
+  padding: 0 10px;
+}
+
+#cpu { color: #9a6dbb; }
+#memory { color: #7a5aaa; }
+#network { color: #7a6aab; }
+#network.disconnected { color: #c45c75; }
+#pulseaudio { color: #a89bc2; } /* Removed pink, set to lavender */
+#pulseaudio.muted { color: #4a3a6a; }

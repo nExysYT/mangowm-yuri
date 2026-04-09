@@ -1,0 +1,60 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 28,
+
+  "modules-left": [
+    "dwl/tags"
+  ],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right": [
+    "pulseaudio",
+    "network",
+    "cpu",
+    "memory",
+    "tray"
+  ],
+
+  "dwl/tags": {
+    "num-tags": 9,
+    "tag-labels": ["一", "二", "三", "四", "五", "六", "七", "八", "九"]
+  },
+
+  "clock": {
+    "format": " {:%H:%M}",
+    "format-alt": " {:%A, %B %d}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt>{calendar}</tt>"
+  },
+
+  "cpu": {
+    "format": " {usage}%",
+    "interval": 2
+  },
+
+  "memory": {
+    "format": " {used:0.1f}G",
+    "interval": 5
+  },
+
+  "network": {
+    "format-wifi": "{signalStrength}%",
+    "format-ethernet": "모{ipaddr}",
+    "format-disconnected": "睊",
+    "tooltip-format": "{essid} {ipaddr}"
+  },
+
+  "pulseaudio": {
+    "format": " {volume}%",
+    "format-muted": "婢",
+    "format-icons": {
+      "default": ["", "", ""]
+    },
+    "on-click": "pavucontrol"
+  },
+
+  "tray": {
+    "spacing": 8
+  }
+}

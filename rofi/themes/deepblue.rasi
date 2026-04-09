@@ -1,0 +1,148 @@
+/**
+ * Deep Blue Slim Theme for Rofi — v2
+ * Border: #000033FF | Inner: Transparent
+ * Style: Rounded, Slim, Vertical — corners fixed
+ */
+
+* {
+    bg-col:         #00000000;
+    bg-col-light:   #00000000;
+    border-col:     #000033FF;
+    selected-col:   #00003355;
+    fg-col:         #d0d0f0;
+    fg-col2:        #ffffff;
+    grey:           #6060a0;
+
+    font:           "JetBrains Mono 11";
+    background-color: @bg-col;
+    text-color:     @fg-col;
+    border-color:   @border-col;
+}
+
+element-text,
+element-icon,
+mode-switcher {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+window {
+    height:              50%;
+    width:               320px;
+    location:            center;
+    anchor:              center;
+    transparency:        "real";
+    background-color:    @bg-col;
+    border:              2px solid;
+    border-color:        @border-col;
+    border-radius:       20px;
+    padding:             12px 10px;
+}
+
+mainbox {
+    background-color:    @bg-col;
+    border:              0px;
+    spacing:             6px;
+    padding:             0px;
+}
+
+inputbar {
+    background-color:    #00001888;
+    border:              1px solid;
+    border-color:        @border-col;
+    border-radius:       12px;
+    padding:             7px 12px;
+    spacing:             6px;
+    text-color:          @fg-col2;
+    children:            [ prompt, entry ];
+    margin:              0px 0px 4px 0px;
+}
+
+prompt {
+    background-color:    @bg-col;
+    text-color:          #4444aaFF;
+    padding:             0px 4px 0px 0px;
+    font:                "JetBrains Mono Bold 11";
+}
+
+entry {
+    background-color:    @bg-col;
+    text-color:          @fg-col2;
+    placeholder:         "Search...";
+    placeholder-color:   @grey;
+}
+
+listview {
+    background-color:    @bg-col;
+    border:              0px;
+    spacing:             1px;
+    padding:             2px 0px;
+    columns:             1;
+    lines:               14;
+    scrollbar:           false;
+}
+
+element {
+    background-color:    @bg-col;
+    text-color:          @fg-col;
+    border-radius:       10px;
+    padding:             6px 12px;
+    spacing:             8px;
+    orientation:         horizontal;
+}
+
+element selected {
+    background-color:    @selected-col;
+    text-color:          @fg-col2;
+    border:              1px solid;
+    border-color:        @border-col;
+    border-radius:       10px;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    text-color:          #ff6060;
+}
+
+element-icon {
+    size:                18px;
+    vertical-align:      0.5;
+}
+
+element-text {
+    vertical-align:      0.5;
+}
+
+message {
+    background-color:    @bg-col;
+    border:              1px solid;
+    border-color:        @border-col;
+    border-radius:       10px;
+    padding:             4px 10px;
+    margin:              2px 0px;
+}
+
+textbox {
+    text-color:          @grey;
+    font:                "JetBrains Mono 10";
+}
+
+mode-switcher {
+    background-color:    @bg-col;
+    spacing:             4px;
+    padding:             4px 0px 0px 0px;
+}
+
+button {
+    background-color:    @bg-col;
+    text-color:          @grey;
+    border:              1px solid;
+    border-color:        @border-col;
+    border-radius:       10px;
+    padding:             4px 10px;
+}
+
+button selected {
+    background-color:    @selected-col;
+    text-color:          @fg-col2;
+}

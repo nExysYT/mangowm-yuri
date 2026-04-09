@@ -1,0 +1,2 @@
+[2026-02-17 20:13:05.372] [info] Using configuration file /home/exys/.config/waybar/config
+[2026-02-17 20:13:05.372] [error] in Json::Value::resolveReference(key, end): requires objectValue

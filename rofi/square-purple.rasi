@@ -1,0 +1,61 @@
+* {
+    bg: #000000;
+    fg: #ffffff;
+    border: #9b59ff;
+
+    background-color: @bg;
+    text-color: @fg;
+}
+
+window {
+    width: 400px;
+    border: 2px;
+    border-color: @border;
+    border-radius: 0px;
+    background-color: @bg;
+}
+
+mainbox {
+    padding: 8px;
+    background-color: @bg;
+}
+
+inputbar {
+    background-color: @bg;
+    padding: 4px;
+    border: 1px;
+    border-color: @border;
+}
+
+entry {
+    background-color: @bg;
+    text-color: @fg;
+    padding: 4px;
+}
+
+listview {
+    background-color: @bg;
+    spacing: 2px;
+    padding: 4px;
+}
+
+element {
+    background-color: @bg;
+    text-color: @fg;
+    padding: 4px;
+}
+
+element selected {
+    background-color: #111111;
+    text-color: @border;
+}
+
+prompt {
+    background-color: @bg;
+    text-color: @border;
+}
+
+textbox-prompt-colon {
+    background-color: @bg;
+    text-color: @border;
+}
