@@ -35,7 +35,7 @@ yay -S mangowm-git
 sudo pacman -S waybar foot rofi swaybg
 ```
 
-## Clone the Repository
+### 2. Clone the Repository
 Grab my configuration files:
 
 ```bash
@@ -43,17 +43,17 @@ git clone [https://github.com/nExysYT/mangowm-yuri.git](https://github.com/nExys
 cd mangowm-yuri
 ```
 
-# Create the config directory
+### 3. Create the config directory
 ```bash
 mkdir -p ~/.config/mango
 mkdir -p ~/Pictures
 ```
 
-# Copy other component configs
+### 4. Copy other component configs
 ```bash
-# cp -r mango ~/.config/
-# cp -r waybar ~/.config/
-# cp -r foot ~/.config/
-# cp -r rofi ~/.config/
-# cp -r wallpaper ~/Pictures
+ cp -r mango ~/.config/
+ cp -r waybar ~/.config/
+ cp -r foot ~/.config/
+ cp -r rofi ~/.config/
+ cp -r wallpaper ~/Pictures
 ```
