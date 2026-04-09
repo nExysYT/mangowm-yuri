@@ -33,3 +33,27 @@ If you are on Arch Linux, use your favorite AUR helper (like `yay` or `paru`):
 ```bash
 yay -S mangowm-git
 sudo pacman -S waybar foot rofi swaybg
+```
+
+## Clone the Repository
+Grab my configuration files:
+
+```bash
+git clone [https://github.com/nExysYT/mangowm-yuri.git](https://github.com/nExysYT/mangowm-yuri.git)
+cd mangowm-yuri
+```
+
+# Create the config directory
+```bash
+mkdir -p ~/.config/mango
+mkdir -p ~/Pictures
+```
+
+# Copy other component configs
+```bash
+# cp -r mango ~/.config/
+# cp -r waybar ~/.config/
+# cp -r foot ~/.config/
+# cp -r rofi ~/.config/
+# cp -r wallpaper ~/Pictures
+```
