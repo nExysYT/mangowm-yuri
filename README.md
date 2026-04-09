@@ -39,7 +39,7 @@ sudo pacman -S waybar foot rofi swaybg
 Grab my configuration files:
 
 ```bash
-git clone [https://github.com/nExysYT/mangowm-yuri.git](https://github.com/nExysYT/mangowm-yuri.git)
+git clone https://github.com/nExysYT/mangowm-yuri.git
 cd mangowm-yuri
 ```
 
